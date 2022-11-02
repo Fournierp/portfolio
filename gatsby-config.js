@@ -4,38 +4,44 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Paul Fournier',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Paul Fournier | Data Scientist`,
     // Description that goes under your name in main bio
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    // author: `@rfitzio`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/Fournierp`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/fournier-paul/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `🇫🇷🇭🇰🇺🇸🇨🇦`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: '⚽ Fantasy Premier League',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Collection of Football data scraping, analysis and modeling',
+        link: 'https://github.com/Fournierp/FPL',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: '💸 Dashboard for Stock Market Analysis',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'Interactive web app with live visualizations of companies stock price variations and recent articles',
+        link: 'https://github.com/Fournierp/alfred',
       },
       {
-        name: 'Another Cool Project',
+        name: '🤖 Atari Reinforcement Learning',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Atari Breakout game solved using Deep Q-Learning from frame data',
+        link: 'https://github.com/Fournierp/rl',
+      },
+      {
+        name: '🔍 CAPTCHA',
+        description:
+          'Decyphering CAPTCHAv2 images with Convolution Neural Networks',
+        link: 'https://github.com/Fournierp/OCR',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
