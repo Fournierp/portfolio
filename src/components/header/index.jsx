@@ -1,6 +1,7 @@
 import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
+import { Mail, Linkedin, GitHub, Gitlab } from 'react-feather';
 import Animation from '../animation';
 
 import profileImg from '../../images/profile.jpg';
@@ -22,6 +23,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
   const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
+  const email = get(metadata, 'email', false);
 
   return (
     <Animation type='fadeDown' delay={400}>
@@ -49,23 +51,29 @@ const Header = ({ metadata = {}, noBlog = false }) => {
             )}
             {github && (
               <li className={classes.item}>
-                <a className={classes.link} href={github}>
-                  GitHub
-                </a>
-              </li>
+                  <a className={classes.link} href={github} target="_blank" rel="noreferrer noopener">
+                    <Animation type='fadeLeft' delay={600}>
+                      <GitHub/>
+                    </Animation>
+                  </a>
+                </li>
             )}
             {linkedin && (
               <li className={classes.item}>
-                <a className={classes.link} href={linkedin}>
-                  LinkedIn
+                <a className={classes.link} href={linkedin} target="_blank" rel="noreferrer noopener">
+                  <Animation type='fadeLeft' delay={700}>
+                    <Linkedin/>
+                  </Animation>
                 </a>
               </li>
             )}
-            {!noBlog && (
+            {email && (
               <li className={classes.item}>
-                <Link className={classes.link} to="/blog">
-                  Blog
-                </Link>
+                <a className={classes.link} href={`mailto:${email}`}>
+                  <Animation type='fadeLeft' delay={800}>
+                    <Mail/>
+                  </Animation>
+                </a>
               </li>
             )}
           </ul>

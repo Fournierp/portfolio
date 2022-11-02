@@ -5,7 +5,7 @@ import Animation from '../animation';
 
 const SectionAbout = ({ about }) => {
   return (
-    <Animation type='fadeDown' delay={600}>
+    <Animation type='fadeDown' delay={1000}>
         <Section title="About Me">
         <div className="mb-6">
           <p>{about}</p>

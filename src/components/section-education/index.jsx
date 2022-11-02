@@ -8,7 +8,7 @@ const SectionEducation = ({ education }) => {
   if (!education.length) return null;
 
   return (
-    <Animation type='fadeDown' delay={1200}>
+    <Animation type='fadeDown' delay={1600}>
       <Section title="Education">
         {education.map((item) => (
           <SummaryCV

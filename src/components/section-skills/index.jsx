@@ -6,7 +6,7 @@ import Animation from '../animation';
 
 const SectionSkills = ({ skills }) => {
   return (
-    <Animation type='fadeDown' delay={1400}>
+    <Animation type='fadeDown' delay={1800}>
       <Section title="Skills">
         {skills.map((skill) => (
           <SummaryProject

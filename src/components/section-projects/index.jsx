@@ -8,7 +8,7 @@ const SectionProjects = ({ projects }) => {
   if (!projects.length) return null;
 
   return (
-    <Animation type='fadeDown' delay={800}>
+    <Animation type='fadeDown' delay={1200}>
       <Section title="Projects">
         {projects.map((project) => (
           <SummaryProject

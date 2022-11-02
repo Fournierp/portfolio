@@ -8,7 +8,7 @@ const SectionExperience = ({ experience }) => {
   if (!experience.length) return null;
 
   return (
-    <Animation type='fadeDown' delay={1000}>
+    <Animation type='fadeDown' delay={1400}>
       <Section title="Experience">
         {experience.map((item) => (
           <SummaryCV

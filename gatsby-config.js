@@ -11,6 +11,8 @@ module.exports = {
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
     // Optional: Twitter account handle
     // author: `@rfitzio`,
+    // Optional: Email address
+    email: `paul.ag.fournier@gmail.com`,
     // Optional: Github account URL
     github: `https://github.com/Fournierp`,
     // Optional: LinkedIn account URL
