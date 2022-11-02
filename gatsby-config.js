@@ -83,7 +83,7 @@ module.exports = {
         time: '2020 - 2022',
         location: 'Paris, France',
         link: 'https://www.hec.edu/en/master-s-programs/ecole-polytechnique-hec-programs/master-science-data-sciencefor-business-ecole-polytechnique-hec',
-        },
+      },
       {
         company: 'McGill University',
         position: 'B.A. in Software Engineering with Minor in Mathematics',
