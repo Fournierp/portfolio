@@ -47,19 +47,24 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'SkillCorner',
+        description: 'Machine Learning Intern, September 2022 - Present',
+        link: 'https://www.signality.com/',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Signality',
+        description: 'Machine Learning Intern, April 2021 - August 2021',
+        link: 'https://www.signality.com/',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Dataperformers',
+        description: 'Machine Learning Intern, May 2019 - September 2019',
+        link: 'https://www2.deloitte.com/ca/en/pages/press-releases/articles/deloitte-canada-acquires-dataperformers-company-inc-bolstering.html',
+      },
+      {
+        name: 'Dataperformers',
+        description: 'Machine Learning Intern, May 2018 - September 2018',
+        link: 'https://www2.deloitte.com/ca/en/pages/press-releases/articles/deloitte-canada-acquires-dataperformers-company-inc-bolstering.html',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
