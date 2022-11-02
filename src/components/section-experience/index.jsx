@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Section from '../section';
-import SummaryItem from '../summary-item';
+import SummaryCV from '../summary-cv';
 
 const SectionExperience = ({ experience }) => {
   if (!experience.length) return null;
@@ -9,10 +9,11 @@ const SectionExperience = ({ experience }) => {
   return (
     <Section title="Experience">
       {experience.map((item) => (
-        <SummaryItem
-          key={item.name}
-          name={item.name}
-          description={item.description}
+        <SummaryCV
+          company={item.company}
+          position={item.position}
+          time={item.time}
+          location={item.location}
           link={item.link}
         />
       ))}

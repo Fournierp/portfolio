@@ -47,39 +47,49 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'SkillCorner',
-        description: 'Machine Learning Intern, September 2022 - Present',
+        company: 'SkillCorner',
+        position: 'Data Scientist',
+        time: 'Sep 2022 - Present',
+        location: 'Paris, France',
         link: 'https://www.skillcorner.com/',
       },
       {
-        name: 'Signality',
-        description: 'Machine Learning Intern, April 2021 - August 2021',
+        company: 'Signality',
+        position: 'Machine Learning Intern',
+        time: 'Apr 2021 - Aug 2021',
+        location: 'Linköping, Sweden',
         link: 'https://www.signality.com/',
       },
       {
-        name: 'Dataperformers',
-        description: 'Machine Learning Intern, May 2019 - September 2019',
+        company: 'Dataperformers',
+        position: 'Machine Learning Intern',
+        time: 'May 2019 - Sep 2019',
+        location: 'Montréal, Canada',
         link: 'https://www2.deloitte.com/ca/en/pages/press-releases/articles/deloitte-canada-acquires-dataperformers-company-inc-bolstering.html',
       },
       {
-        name: 'Dataperformers',
-        description: 'Machine Learning Intern, May 2018 - September 2018',
+        company: 'Dataperformers',
+        position: 'Machine Learning Intern',
+        time: 'May 2018 - Sep 2018',
+        location: 'Montreal, Canada',
         link: 'https://www2.deloitte.com/ca/en/pages/press-releases/articles/deloitte-canada-acquires-dataperformers-company-inc-bolstering.html',
       },
     ],
     // Optional: List your education, they must have `name` and `description`. `link` is optional.
     education: [
       {
-        name: 'MScT Data Science for Business',
-        description:
-          'Ecole Polytechnique & HEC Paris, 2020 - 2022',
-          link: 'https://www.hec.edu/en/master-s-programs/ecole-polytechnique-hec-programs/master-science-data-sciencefor-business-ecole-polytechnique-hec',
+        company: 'Ecole Polytechnique & HEC Paris',
+        position: 'MScT Data Science for Business',
+        time: '2020 - 2022',
+        location: 'Paris, France',
+        link: 'https://www.hec.edu/en/master-s-programs/ecole-polytechnique-hec-programs/master-science-data-sciencefor-business-ecole-polytechnique-hec',
         },
       {
-        name: 'B.A. in Software Engineering with Minor in Mathematics',
-        description:
-          'McGill University, 2015 - 2020',
-          link: 'https://www.mcgill.ca/ece/',
+        company: 'McGill University',
+        position: 'B.A. in Software Engineering with Minor in Mathematics',
+        time: '2015 - 2020',
+        location: 'Montréal, Canada',
+        link: 'https://www.mcgill.ca/ece/',
       }
     ],
     // Optional: List your skills, they must have `name` and `description`.

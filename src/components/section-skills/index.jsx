@@ -1,13 +1,13 @@
 import React from 'react';
 
 import Section from '../section';
-import SummaryItem from '../summary-item';
+import SummaryProject from '../summary-project';
 
 const SectionSkills = ({ skills }) => {
   return (
     <Section title="Skills">
       {skills.map((skill) => (
-        <SummaryItem
+        <SummaryProject
           key={skill.name}
           name={skill.name}
           description={skill.description}

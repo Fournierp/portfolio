@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Section from '../section';
-import SummaryItem from '../summary-item';
+import SummaryProject from '../summary-project';
 
 const SectionProjects = ({ projects }) => {
   if (!projects.length) return null;
@@ -9,7 +9,7 @@ const SectionProjects = ({ projects }) => {
   return (
     <Section title="Projects">
       {projects.map((project) => (
-        <SummaryItem
+        <SummaryProject
           key={project.name}
           name={project.name}
           description={project.description}

@@ -7,7 +7,7 @@ const classes = {
   description: 'text-md text-gray-600 font-light',
 };
 
-const SummaryItem = ({ name, description, link = false, internal = false }) => {
+const SummaryProject = ({ name, description, link = false, internal = false }) => {
   let linkContent;
   if (internal) {
     linkContent = <Link to={link}>{name}</Link>;
@@ -29,4 +29,4 @@ const SummaryItem = ({ name, description, link = false, internal = false }) => {
   );
 };
 
-export default SummaryItem;
+export default SummaryProject;

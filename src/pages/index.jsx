@@ -56,14 +56,18 @@ export const pageQuery = graphql`
           link
         }
         experience {
-          name
-          description
+          company
+          position
           link
+          time
+          location
         }
         education {
-          name
-          description
+          company
+          position
           link
+          time
+          location
         }
         skills {
           name
