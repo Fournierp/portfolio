@@ -67,6 +67,21 @@ module.exports = {
         link: 'https://www2.deloitte.com/ca/en/pages/press-releases/articles/deloitte-canada-acquires-dataperformers-company-inc-bolstering.html',
       },
     ],
+    // Optional: List your education, they must have `name` and `description`. `link` is optional.
+    education: [
+      {
+        name: 'MScT Data Science for Business',
+        description:
+          'Ecole Polytechnique & HEC Paris, 2020 - 2022',
+          link: 'https://www.hec.edu/en/master-s-programs/ecole-polytechnique-hec-programs/master-science-data-sciencefor-business-ecole-polytechnique-hec',
+        },
+      {
+        name: 'B.A. in Software Engineering with Minor in Mathematics',
+        description:
+          'McGill University, 2015 - 2020',
+          link: 'https://www.mcgill.ca/ece/',
+      }
+    ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
