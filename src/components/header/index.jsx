@@ -1,7 +1,7 @@
 import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
-import { Mail, Linkedin, GitHub, Gitlab } from 'react-feather';
+import { Mail, Linkedin, GitHub } from 'react-feather';
 import Animation from '../animation';
 
 import profileImg from '../../images/profile.jpg';
