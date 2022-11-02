@@ -49,7 +49,7 @@ module.exports = {
       {
         name: 'SkillCorner',
         description: 'Machine Learning Intern, September 2022 - Present',
-        link: 'https://www.signality.com/',
+        link: 'https://www.skillcorner.com/',
       },
       {
         name: 'Signality',
@@ -72,16 +72,12 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
-      },
-      {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+          'Python, Pandas, Numpy, Tensorflow, PyTorch, Scikit-learn',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Git',
       },
     ],
   },
