@@ -1,14 +1,14 @@
 module.exports = {
-  pathPrefix: '/devfolio',
+  pathPrefix: "portfolio",
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: 'https://fournierp.github.io/portfolio/',
     // Your Name
     name: 'Paul Fournier',
     // Main Site Title
     title: `Paul Fournier | Data Scientist`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Helping football clubs do data driven player recruitment`,
     // Optional: Twitter account handle
     // author: `@rfitzio`,
     // Optional: Email address
@@ -18,7 +18,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/fournier-paul/`,
     // Content of the About Me section
-    about: `🇫🇷🇭🇰🇺🇸🇨🇦`,
+    about: `🇫🇷 but lived in 🇭🇰 🇺🇸 🇨🇦`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -26,12 +26,6 @@ module.exports = {
         description:
           'Collection of Football data scraping, analysis and modeling',
         link: 'https://github.com/Fournierp/FPL',
-      },
-      {
-        name: '💸 Dashboard for Stock Market Analysis',
-        description:
-          'Interactive web app with live visualizations of companies stock price variations and recent articles',
-        link: 'https://github.com/Fournierp/alfred',
       },
       {
         name: '🤖 Atari Reinforcement Learning',
@@ -44,6 +38,12 @@ module.exports = {
         description:
           'Decyphering CAPTCHAv2 images with Convolution Neural Networks',
         link: 'https://github.com/Fournierp/OCR',
+      },
+      {
+        name: '💸 Dashboard for Stock Market Analysis',
+        description:
+          'Interactive web app with live visualizations of companies stock price variations and recent articles',
+        link: 'https://github.com/Fournierp/alfred',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -99,12 +99,12 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'Python, Pandas, Numpy, Tensorflow, PyTorch, Scikit-learn',
+          'Python, Tensorflow, PyTorch, OpenCV',
       },
       {
         name: 'Other',
         description:
-          'Git',
+          'Git, AWS, Docker',
       },
     ],
   },
@@ -160,8 +160,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `devfolio`,
-        short_name: `devfolio`,
+        name: `portfolio`,
+        short_name: `portfolio`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`, // This color appears on mobile
