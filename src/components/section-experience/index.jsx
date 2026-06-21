@@ -12,11 +12,13 @@ const SectionExperience = ({ experience }) => {
       <Section title="Experience">
         {experience.map((item) => (
           <SummaryCV
+            key={`${item.company}-${item.time}`}
             company={item.company}
             position={item.position}
             time={item.time}
             location={item.location}
             link={item.link}
+            highlights={item.highlights}
           />
         ))}
       </Section>
