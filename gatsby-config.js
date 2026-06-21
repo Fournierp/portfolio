@@ -50,10 +50,27 @@ module.exports = {
     experience: [
       {
         company: 'SkillCorner',
-        position: 'Data Scientist',
-        time: 'Sep 2022 - Present',
+        position: 'Data Scientist - Game Intelligence',
+        time: 'Oct 2024 - Present',
         location: 'Paris, France',
         link: 'https://www.skillcorner.com/',
+        highlights: [
+          "Opened a new revenue stream by applying the company's data to sports-betting markets. Built a Bayesian match-prediction model (PyMC library) with walk-forward backtesting and bet simulation, reaching bookmaker-level accuracy.",
+          "Built an AI assistant that lets the whole team find answers about our code in plain language. Powered by an LLM (Claude), it distills the entire codebase (30+ repositories) into a self-updating, shared knowledge base, then serves it through specialized sub-agents and skills that answer questions, triage pipeline issues, and help with client support.",
+          "Led a project to measure which direction players are facing on the pitch and derived key football metrics from this data. Derived player orientation from body-pose estimation, enriching football metrics (for example forward momentum) with biomechanical context unavailable from positional tracking data alone.",
+          "Cut the company's reliance on costly third-party data providers. Integrated automatically detected events into the Game Intelligence pipeline, generating Dynamic Events directly from tracking data.",
+        ],
+      },
+      {
+        company: 'SkillCorner',
+        position: 'Data Scientist - Computer Vision',
+        time: 'Sep 2022 - Oct 2024',
+        location: 'Paris, France',
+        link: 'https://www.skillcorner.com/',
+        highlights: [
+          "Automated the detection of on-field actions (passes, shots, etc.) that previously required manual annotation. Built the detector on Graph Attention Networks applied to tracking data, extending coverage to leagues with no external annotation.",
+          "Improved the automatic identification of players in match footage. Optimized a jersey-number recognition model (ResNet) and player-role embeddings (a latent representation of each player's football role).",
+        ],
       },
       {
         company: 'Signality',
@@ -61,20 +78,35 @@ module.exports = {
         time: 'Apr 2021 - Aug 2021',
         location: 'Linköping, Sweden',
         link: 'https://www.signality.com/',
+        highlights: [
+          "Led a research and development initiative for a company specializing in real-time sports tracking data.",
+          "Created a 3D dataset of player poses from ordinary 2D camera footage. Reconstructed the 3D poses from synchronized multi-camera 2D detections using camera-geometry techniques with OpenCV.",
+          "Built models that recover a player's 3D body pose from a single camera. Designed these monocular 3D pose-estimation models and implemented them with TensorFlow.",
+        ],
       },
       {
         company: 'Dataperformers',
         position: 'Machine Learning Intern',
-        time: 'May 2019 - Sep 2019',
+        time: 'May 2019 - Aug 2019',
         location: 'Montréal, Canada',
         link: 'https://www2.deloitte.com/ca/en/pages/press-releases/articles/deloitte-canada-acquires-dataperformers-company-inc-bolstering.html',
+        highlights: [
+          "Designed scalable algorithms for an ad-exchange client.",
+          "Sped up the processing of massive, continuous data streams. Developed optimized scripts for large-scale streaming data using Cython and Numba.",
+          "Enabled models to keep learning from new data as it arrives. Built and trained deep neural networks for online learning on unseen data.",
+        ],
       },
       {
         company: 'Dataperformers',
         position: 'Machine Learning Intern',
-        time: 'May 2018 - Sep 2018',
+        time: 'May 2018 - Aug 2018',
         location: 'Montreal, Canada',
         link: 'https://www2.deloitte.com/ca/en/pages/press-releases/articles/deloitte-canada-acquires-dataperformers-company-inc-bolstering.html',
+        highlights: [
+          "Implemented a social media data analysis pipeline for an investment company.",
+          "Slashed the data pipeline's computation time. Automated and optimized Twitter data collection using Tweepy.",
+          "Predicted market sentiment from social-media text. Designed and trained Natural Language Processing models for sentiment analysis with Keras.",
+        ],
       },
     ],
     // Optional: List your education, they must have `name` and `description`. `link` is optional.
