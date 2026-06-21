@@ -163,8 +163,8 @@ module.exports = {
         name: `portfolio`,
         short_name: `portfolio`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`, // This color appears on mobile
+        background_color: `#091540`,
+        theme_color: `#091540`, // This color appears on mobile
         display: `minimal-ui`,
         icon: `src/images/icon.png`,
       },

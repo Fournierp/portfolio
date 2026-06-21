@@ -5,8 +5,8 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 
 const classes = {
-  title: 'text-lg font-bold',
-  link: 'underline',
+  title: 'text-lg font-bold text-brand-navy',
+  link: 'underline text-brand-blue hover:text-brand-indigo',
 };
 
 const NotFoundPage = () => (

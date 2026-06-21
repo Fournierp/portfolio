@@ -9,8 +9,12 @@
   }
 
   .blog-content a {
-    @apply text-black;
+    @apply text-brand-blue;
     @apply underline;
+  }
+
+  .blog-content a:hover {
+    @apply text-brand-indigo;
   }
 
   .blog-content p,
@@ -34,33 +38,33 @@
 
   .blog-content h1 {
     @apply text-4xl;
-    @apply text-gray-900;
+    @apply text-brand-navy;
     @apply font-bold;
     @apply my-3;
   }
 
   .blog-content h2 {
     @apply text-2xl;
-    @apply text-gray-900;
+    @apply text-brand-navy;
     @apply font-bold;
     @apply my-3;
   }
 
   .blog-content h3 {
     @apply text-xl;
-    @apply text-gray-900;
+    @apply text-brand-navy;
     @apply font-bold;
     @apply my-3;
   }
 
   .blog-content h4 {
-    @apply text-gray-900;
+    @apply text-brand-navy;
     @apply font-bold;
     @apply my-3;
   }
 
   .blog-content h5 {
-    @apply text-gray-900;
+    @apply text-brand-navy;
     @apply text-sm;
     @apply font-bold;
     @apply my-3;
