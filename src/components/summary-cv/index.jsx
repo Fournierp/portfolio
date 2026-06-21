@@ -7,9 +7,11 @@ const classes = {
   company: 'text-md text-gray-600 font-light',
   name: 'font-semibold text-brand-navy pb-1',
   description: 'text-base text-gray-600 font-light',
+  highlights: 'mt-2 pl-5 list-disc',
+  highlight: 'mb-1 text-base text-gray-600 font-light',
 };
 
-const SummaryCV = ({ company, position, time, location, link = false,}) => {
+const SummaryCV = ({ company, position, time, location, link = false, highlights = [] }) => {
   const linkContent = <Link to={link}>{company}</Link>;
 
   return (
@@ -28,6 +30,15 @@ const SummaryCV = ({ company, position, time, location, link = false,}) => {
         {link ? linkContent : company}
       </span>
       <p className={classes.description}>{time}{" "}{" "} | {" "}{" "}{location}</p>
+      {highlights && highlights.length > 0 && (
+        <ul className={classes.highlights}>
+          {highlights.map((item, i) => (
+            <li key={i} className={classes.highlight}>
+              {item}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 };

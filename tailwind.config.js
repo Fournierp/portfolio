@@ -10,8 +10,10 @@ module.exports = {
         xs: '480px',
       },
       spacing: {
-        // Reserve room for the fixed 404px-wide decorative pattern (xl+ only)
-        112: '28rem',
+        // Reserve room for the fixed decorative pattern (xl+ only). The pattern is
+        // 330px wide; 22.5rem (360px) clears it at the 1280px breakpoint with a ~30px
+        // gap, while keeping the content/bullet column as wide as possible.
+        90: '22.5rem',
       },
       colors: {
         brand: {
