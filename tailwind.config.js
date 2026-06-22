@@ -9,10 +9,6 @@ module.exports = {
       screens: {
         xs: '480px',
       },
-      spacing: {
-        // Reserve room for the fixed 404px-wide decorative pattern (xl+ only)
-        112: '28rem',
-      },
       colors: {
         brand: {
           navy: '#091540',

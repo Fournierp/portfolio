@@ -2,7 +2,7 @@ import React from 'react';
 import Animation from '../animation';
 
 const classes = {
-  wrapper: 'p-8 relative max-w-screen-xl xs:p-24 xl:pr-112',
+  wrapper: 'p-8 relative max-w-screen-xl xs:p-24 cv-pattern-gutter',
   outerWrapper: 'relative',
   svg: 'hidden fixed transform right-0 top-0 z-0 xl:block',
 };
