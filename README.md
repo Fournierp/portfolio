@@ -218,6 +218,22 @@ All the possible classes are defined above and just referenced in the `className
 
 This is however just a recommendation, the template allows you to write the components in any way you wish.
 
+## Color Palette
+
+This site applies a custom blue palette on top of the template's default styling. The colors are defined as a `brand` color scale in `tailwind.config.js` (under `theme.extend.colors.brand`), so they're available as Tailwind classes such as `text-brand-navy` and `hover:text-brand-blue`.
+
+| Token | Hex | Used for |
+| --- | --- | --- |
+| `brand-navy` | `#091540` | Headings — name, project & skill titles, experience/education job titles, blog post titles |
+| `brand-blue` | `#1b2cc1` | Links, and the hover color on linked headings |
+| `brand-indigo` | `#3d518c` | Social icons, and the hover color on inline text links |
+| `brand-periwinkle` | `#7692ff` | Reserved accent (kept in the palette, not currently used) |
+| `brand-sky` | `#abd2fa` | The decorative dot pattern in the background |
+
+Body copy and the uppercase section labels are intentionally kept in the template's grays for readability. The PWA manifest `theme_color` and `background_color` in `gatsby-config.js` are also set to `#091540`, so the mobile browser chrome matches.
+
+To restyle the site, edit the `brand` colors in `tailwind.config.js` — every reference across the components picks up the change automatically.
+
 ## License
 
 Licensed under the [MIT License](https://github.com/RyanFitzgerald/devfolio/blob/master/LICENSE.md).
