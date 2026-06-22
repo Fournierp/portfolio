@@ -99,6 +99,18 @@
   }
 }
 
+/*
+ * Reserve space for the fixed decorative dot pattern on xl+ screens so section
+ * content (and the experience bullets) never runs underneath it. Written as
+ * plain CSS rather than a Tailwind utility (e.g. xl:pr-112) because responsive
+ * variants of custom spacing values get dropped from the production build.
+ */
+@media (min-width: 1280px) {
+  .cv-pattern-gutter {
+    padding-right: 28rem;
+  }
+}
+
 /**
  * atom-dark theme for `prism.js`
  * Based on Atom's `atom-dark` theme: https://github.com/atom/atom-dark-syntax
