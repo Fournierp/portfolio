@@ -2,7 +2,7 @@ import React from 'react';
 import Animation from '../animation';
 
 const classes = {
-  wrapper: 'p-8 relative max-w-screen-xl xs:p-24 xl:pr-112',
+  wrapper: 'p-8 relative max-w-screen-xl xs:p-24 xl:pr-90',
   outerWrapper: 'relative',
   svg: 'hidden fixed transform right-0 top-0 z-0 xl:block',
 };
@@ -13,10 +13,10 @@ const Layout = ({ children }) => {
       <Animation type='fadeIn'>
         <svg
           className={classes.svg}
-          width="404"
+          width="330"
           height="100%"
           fill="none"
-          viewBox="0 0 404 100%"
+          viewBox="0 0 330 100%"
         >
           <defs>
             <pattern
@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
             </pattern>
           </defs>
           <rect
-            width="404"
+            width="330"
             height="100%"
             fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)"
           />
