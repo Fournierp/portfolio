@@ -107,7 +107,7 @@
  */
 @media (min-width: 1280px) {
   .cv-pattern-gutter {
-    padding-right: 28rem;
+    padding-right: 28rem !important;
   }
 }
 
